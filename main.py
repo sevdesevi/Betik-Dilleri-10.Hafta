@@ -7,7 +7,7 @@ print(data.tail())
 global mal
 mal = 0
 global para
-para = 1                    #Burak Şahin Tarafından Kodlandı
+para = 1                   
 #indikatörler (göstergeler)
 def get_rsi():
     window = 14
@@ -71,7 +71,7 @@ def renklendir(datam):
         print('yeşil')
     else:
         print('kırmızı')
-renklendir(data)                #BURAK ŞAHİN TARAFINDAN KODLANDI
+renklendir(data)                
 
 
 # Canlıya alma .....sinyal üretimine dikkat para-mal ???
